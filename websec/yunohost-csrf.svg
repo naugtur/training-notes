@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   contentScriptType="application/ecmascript"
+   contentStyleType="text/css"
+   height="869px"
+   preserveAspectRatio="none"
+   style="width:885px;height:869px;"
+   version="1.1"
+   viewBox="0 0 885 869"
+   width="885px"
+   zoomAndPan="magnify"
+   id="svg211"
+   sodipodi:docname="yunohost-csrf.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata215">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1040"
+     id="namedview213"
+     showgrid="false"
+     inkscape:zoom="0.76813441"
+     inkscape:cx="446.44381"
+     inkscape:cy="451.11781"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg211" />
+  <defs
+     id="defs11">
+    <filter
+       height="300%"
+       id="f1slcdq0odulvv"
+       width="300%"
+       x="-1"
+       y="-1">
+      <feGaussianBlur
+         result="blurOut"
+         stdDeviation="2.0"
+         id="feGaussianBlur2" />
+      <feColorMatrix
+         in="blurOut"
+         result="blurOut2"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"
+         id="feColorMatrix4" />
+      <feOffset
+         dx="4.0"
+         dy="4.0"
+         in="blurOut2"
+         result="blurOut3"
+         id="feOffset6" />
+      <feBlend
+         in="SourceGraphic"
+         in2="blurOut3"
+         mode="normal"
+         id="feBlend8" />
+    </filter>
+  </defs>
+  <rect
+     id="rect15"
+     y="161.6953"
+     x="379"
+     width="10"
+     style="fill:#ffffff;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="86.964798" />
+  <rect
+     id="rect19"
+     y="294.69531"
+     x="517"
+     width="10"
+     style="fill:#ffffff;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="76.531303" />
+  <line
+     id="line21"
+     y2="314.49219"
+     y1="86.296898"
+     x2="27"
+     x1="27"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line25"
+     y2="655.95312"
+     y1="229.29691"
+     x2="27"
+     x1="27"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line27"
+     y2="314.49219"
+     y1="86.296898"
+     x2="183.5"
+     x1="183.5"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line31"
+     y2="655.95312"
+     y1="229.29691"
+     x2="183.5"
+     x1="183.5"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line33"
+     y2="314.49219"
+     y1="86.296898"
+     x2="384"
+     x1="384"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line37"
+     y2="655.95312"
+     y1="229.29691"
+     x2="384"
+     x1="384"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line39"
+     y2="314.49219"
+     y1="86.296898"
+     x2="522"
+     x1="522"
+     style="stroke:#a80036;stroke-width:1" />
+  <line
+     id="line43"
+     y2="655.95312"
+     y1="229.29691"
+     x2="522"
+     x1="522"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text45"
+     y="82.995102"
+     x="8"
+     textLength="32"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">User</text>
+  <circle
+     r="8"
+     id="ellipse47"
+     style="fill:#fefece;stroke:#a80036;stroke-width:2;filter:url(#f1slcdq0odulvv)"
+     cy="13"
+     cx="27" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path49"
+     style="fill:none;stroke:#a80036;stroke-width:2;filter:url(#f1slcdq0odulvv)"
+     d="M 27,21 V 48 M 14,29 H 40 M 27,48 14,63 M 27,48 40,63" />
+  <rect
+     id="rect57"
+     y="51"
+     x="146.5"
+     width="71"
+     style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#f1slcdq0odulvv)"
+     height="30.2969" />
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text59"
+     y="70.995102"
+     x="153.5"
+     textLength="57"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">Browser</text>
+  <rect
+     id="rect65"
+     y="34.703098"
+     x="327"
+     width="110"
+     style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#f1slcdq0odulvv)"
+     height="46.5938" />
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text67"
+     y="54.6982"
+     x="356.5"
+     textLength="51"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">https://</text>
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text69"
+     y="70.995102"
+     x="334"
+     textLength="96"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">yunohost.test</text>
+  <rect
+     id="rect77"
+     y="34.703098"
+     x="451"
+     width="138"
+     style="fill:#fefece;stroke:#a80036;stroke-width:1.5;filter:url(#f1slcdq0odulvv)"
+     height="46.5938" />
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text79"
+     y="54.6982"
+     x="494.5"
+     textLength="51"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">https://</text>
+  <text
+     style="font-size:14px;font-family:sans-serif;fill:#000000"
+     id="text81"
+     y="70.995102"
+     x="458"
+     textLength="124"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="14">www.attacker.test</text>
+  <rect
+     id="rect91"
+     y="161.6953"
+     x="379"
+     width="10"
+     style="fill:#ffffff;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="86.964798" />
+  <rect
+     id="rect93"
+     y="490.28912"
+     x="379"
+     width="10"
+     style="fill:#ffffff;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="109.6641" />
+  <rect
+     id="rect95"
+     y="294.69531"
+     x="517"
+     width="10"
+     style="fill:#ffffff;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="76.531303" />
+  <polygon
+     id="polygon97"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="172,128.5625 182,132.5625 172,136.5625 176,132.5625 "
+     transform="translate(0,-12)" />
+  <line
+     id="line99"
+     y2="120.5625"
+     y1="120.5625"
+     x2="178"
+     x1="27"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text101"
+     y="112.3638"
+     x="34"
+     textLength="54"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">Login on</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text103"
+     y="127.4966"
+     x="34"
+     textLength="133"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">https://yunohost.test</text>
+  <polygon
+     id="polygon105"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="367,157.6953 377,161.6953 367,165.6953 371,161.6953 "
+     transform="translate(0,-12)" />
+  <line
+     id="line107"
+     y2="149.6953"
+     y1="149.6953"
+     x2="373"
+     x1="184"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text109"
+     y="156.62939"
+     x="191"
+     textLength="131"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">POST /yunohost/sso/</text>
+  <polygon
+     id="polygon111"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     points="433,197.6953 334,197.6953 324,185.6953 334,174.6953 433,174.6953 443,185.6953 "
+     transform="translate(0,-38)" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text113"
+     y="190.76221"
+     x="336"
+     textLength="95"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-38)">Create session</text>
+  <polygon
+     id="polygon115"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="195,244.6602 185,248.6602 195,252.6602 191,248.6602 "
+     transform="translate(0,-12)" />
+  <line
+     id="line117"
+     y2="236.6602"
+     y1="236.6602"
+     x2="383"
+     x1="189"
+     style="stroke:#a80036;stroke-width:1;stroke-dasharray:2, 2" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text119"
+     y="243.59419"
+     x="201"
+     textLength="24"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">302</text>
+  <rect
+     id="rect121"
+     y="195.82809"
+     x="394"
+     width="315"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="68" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text123"
+     y="223.895"
+     x="398"
+     textLength="84"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">HTTP/1.1 302</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text125"
+     y="239.0278"
+     x="398"
+     textLength="237"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">Set-Cookie: SSOwAuthUser=johndoe</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text127"
+     y="254.1606"
+     x="398"
+     textLength="277"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">Set-Cookie: SSOAuthHash=55a09d6ccce...</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text129"
+     y="269.29349"
+     x="398"
+     textLength="307"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-12)">Set-Cookie: SSOwAuthExpire=1527983393.419.</text>
+  <polygon
+     id="polygon131"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     points="138,286.3594 229,286.3594 239,297.3594 229,309.3594 138,309.3594 128,297.3594 "
+     transform="translate(0,-44)" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text133"
+     y="302.4263"
+     x="140"
+     textLength="87"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-44)">Store cookies</text>
+  <polygon
+     id="polygon137"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="176,391.5625 172,387.5625 182,391.5625 172,395.5625 "
+     transform="translate(0,-106)" />
+  <line
+     id="line139"
+     y2="285.5625"
+     y1="285.5625"
+     x2="178"
+     x1="27"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text143"
+     y="386.49661"
+     x="34"
+     textLength="124"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-106)">http://attacker.test/</text>
+  <polygon
+     id="polygon145"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="515,420.6953 505,424.6953 509,420.6953 505,416.6953 "
+     transform="translate(0,-126)" />
+  <line
+     id="line147"
+     y2="294.69531"
+     y1="294.69531"
+     x2="511"
+     x1="184"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text149"
+     y="415.62939"
+     x="191"
+     textLength="33"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">GET /</text>
+  <polygon
+     id="polygon151"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="190,497.2266 200,501.2266 196,497.2266 200,493.2266 "
+     transform="translate(0,-126)" />
+  <line
+     id="line153"
+     y2="371.22659"
+     y1="371.22659"
+     x2="521"
+     x1="194"
+     style="stroke:#a80036;stroke-width:1;stroke-dasharray:2, 2" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text155"
+     y="492.16061"
+     x="206"
+     textLength="24"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">200</text>
+  <rect
+     id="rect157"
+     y="307.69531"
+     x="532"
+     width="342"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="113" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text159"
+     y="449.76221"
+     x="536"
+     textLength="41"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">&lt;form</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text161"
+     y="464.89499"
+     x="544"
+     textLength="326"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">action=&quot;https://yunohost.test/vpnadmin/?/settings&quot;</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text163"
+     y="480.0278"
+     x="544"
+     textLength="105"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">method=&quot;POST&quot;</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text165"
+     y="495.16061"
+     x="544"
+     textLength="209"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">enctype=&quot;multipart/form-data&quot;&gt;</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text167"
+     y="510.29349"
+     x="544"
+     textLength="12"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">...</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text169"
+     y="525.42627"
+     x="536"
+     textLength="56"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">&lt;/form&gt;</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text171"
+     y="540.55908"
+     x="536"
+     textLength="300"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-126)">&lt;script&gt;document.forms[0].submit()&lt;/script&gt;</text>
+  <polygon
+     id="polygon173"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     points="123,580.625 113,568.625 123,557.625 245,557.625 255,568.625 245,580.625 "
+     transform="translate(0,-172)" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text175"
+     y="573.69189"
+     x="125"
+     textLength="118"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-172)">Execute JavaScript</text>
+  <polygon
+     id="polygon177"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="371,654.2891 367,650.2891 377,654.2891 367,658.2891 "
+     transform="translate(0,-162)" />
+  <line
+     id="line179"
+     y2="492.28912"
+     y1="492.28912"
+     x2="373"
+     x1="189"
+     style="stroke:#a80036;stroke-width:1" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text181"
+     y="649.22308"
+     x="196"
+     textLength="171"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">POST /vpnadmin/?/settings</text>
+  <rect
+     id="rect183"
+     y="428.75781"
+     x="394"
+     width="284"
+     style="fill:#fbfb77;stroke:#a80036;stroke-width:1;filter:url(#f1slcdq0odulvv)"
+     height="113" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text185"
+     y="606.82471"
+     x="398"
+     textLength="171"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">POST /vpnadmin/?/settings</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text187"
+     y="621.95752"
+     x="398"
+     textLength="126"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">Host: yunohost.test</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text189"
+     y="637.09027"
+     x="398"
+     textLength="220"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">Content-Type: multipart/form-data</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text191"
+     y="652.22308"
+     x="398"
+     textLength="210"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">Cookie: SSOwAuthUser=johndoe</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text193"
+     y="667.35602"
+     x="398"
+     textLength="250"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">Cookie: SSOAuthHash=55a09d6ccce...</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text195"
+     y="682.48877"
+     x="398"
+     textLength="276"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">Cookie: SSOwAuthExpire=1527983393.419</text>
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text197"
+     y="697.62158"
+     x="398"
+     textLength="22"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="translate(0,-162)">[...]</text>
+  <polygon
+     id="polygon203"
+     style="fill:#a80036;stroke:#a80036;stroke-width:1"
+     points="191,763.9531 195,759.9531 185,763.9531 195,767.9531 "
+     transform="translate(0,-166)" />
+  <line
+     id="line205"
+     y2="597.95312"
+     y1="597.95312"
+     x2="383"
+     x1="189"
+     style="stroke:#a80036;stroke-width:1;stroke-dasharray:2, 2" />
+  <text
+     style="font-size:13px;font-family:sans-serif;fill:#000000"
+     id="text207"
+     y="758.88721"
+     x="201"
+     textLength="24"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="13"
+     transform="matrix(1.667327,0,0,1,-134.51118,-166)">200ok</text>
+</svg>
