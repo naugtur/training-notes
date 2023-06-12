@@ -9,11 +9,12 @@ paginate: true
 headingDivider: 4
 ---
 
-# websec and all
+# Web Security and its rabbitholes
 
-## Web Security 101
 
 ## Fundamentals
+
+What is web security all about?
 
 ### SameOrigin policy
   - Origin
@@ -71,7 +72,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
 
 ---
 
-The attribute is used to **LOOSEN** the sandbox security
+The attribute values are used to **LOOSEN** the sandbox security
 
 Engines have to do horrible things to prevent leaking information cross-origin.
 
@@ -81,6 +82,40 @@ http://naugtur.pl/rejection-in-iframe-sandbox/
 Enforcement is difficult and has lots of edge cases
 https://bugs.chromium.org/p/chromium/issues/detail?id=103630
 
+#### Deep dive: CORS
+
+> CORS: when you need a SameOrigin Policy bypass for a feature
+
+- history: using flash for cross-origin requests
+- not a security mechanism
+- simple requests - what HTML is capable of
+- preflight for others
+
+no-preflight requests are made anyway, just no reading the response
+
+---
+Headers
+
+```
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Origin: https://naugtur.pl
+Access-Control-Allow-Origin: ${req.headers.origin}
+```
+```
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: Authorization, Content-Type
+
+Access-Control-Allow-Origin: https://naugtur.pl
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Headers: Authorization, Content-Type
+Access-Control-Max-Age: 7200
+```
+---
+browsers have a cap on Access-Control-Max-Age
+
+>Firefox caps this at 24 hours (86400 seconds). Chromium (prior to v76) caps at 10 minutes (600 seconds). Chromium (starting in v76) caps at 2 hours (7200 seconds). The default value is 5 seconds. 
+
+ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Max-Age
 
 ### Cookies and sessions
   - attributes
@@ -95,6 +130,10 @@ https://bugs.chromium.org/p/chromium/issues/detail?id=103630
       - xss
     - session pinning (IP or https)
   - CSRF
+
+#### Deep dive: CSRF
+
+https://portswigger.net/web-security/csrf/lab-no-defenses
 
 ---
 
@@ -180,7 +219,26 @@ https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-t
 - careful with reporting sink
   https://github.com/naugtur/csp-report-lite
 
-### Resources
+#### report-to vs report-uri
+
+report-uri works.
+
+
+report-to - only supported by chromium and doesn't seem to work.
+- must be https, apparently
+- Report-To header already deprecated and doesn't seem to work
+- Reporting-Endpoints doesn't work either
+
+DOH! https://bugs.chromium.org/p/chromium/issues/detail?id=1152867
+
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to
+
+
+#### trusted types
+
+https://web.dev/trusted-types/
+
+### More reading
 
 https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5
 
