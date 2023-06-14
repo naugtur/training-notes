@@ -271,6 +271,8 @@ https://web.dev/trusted-types/
 
 `require-trusted-types-for 'script'`
 
+[`TrustedHtml`](https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML)
+
 Only chromium browsers.
 
 ---
