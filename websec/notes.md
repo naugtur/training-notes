@@ -22,7 +22,7 @@ What is web security all about?
   - Realm
   - Window
 
-#### FRC 6454
+#### RFC 6454
 ```
 5.  Comparing Origins
    Two origins are "the same" if, and only if, they are identical.  In
@@ -131,6 +131,10 @@ browsers have a cap on Access-Control-Max-Age
     - session pinning (IP or https)
   - CSRF
 
+#### Historical background: websites interop
+
+links and forms spec came before security was even needed.
+
 #### Deep dive: CSRF
 
 https://portswigger.net/web-security/csrf/lab-no-defenses
@@ -176,12 +180,22 @@ https://xss-game.appspot.com
 next=javascript:alert()
 data:@file/javascript;base64,YWxlcnQoKQo=
 
+### Mitigations
+
+- Filtering
+  - find-replace denylist based will never work
+  - allowlist is better
+- DomPurify
+  - Nothing is perfect - mb's parsers exploit
+- CSP - assume XSS ulns exist and focus on stopping them
+
 ## CSP and how to roll out
 
 - core knowledge
   https://content-security-policy.com/
   https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-
+- level 1 2 3
+  - level 3 support is incomplete
 ### XSS CSP bypass
 
 ![](csp1.png)
@@ -219,7 +233,22 @@ https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-t
 - careful with reporting sink
   https://github.com/naugtur/csp-report-lite
 
-#### report-to vs report-uri
+#### iteratie rollout algo
+```
+1. add your desired CSP to the app, `report-only`
+2. open the app in the browser
+3. observe what breaks, fix the app or loosen the policy
+4. run e2e tests
+5. observe what breaks, fix the app or loosen the policy
+6. roll out to test enironments/stagings for a week
+7. observe what breaks, fix the app or loosen the policy
+8. roll out to users (or just 1-5% of them)
+9. observe what breaks, fix the app or loosen the policy
+10. full roll-out
+11. observe what breaks, fix the app or loosen the policy
+12. When no longer getting reports, remoe `report-only`
+```
+#### Deep dvvie: report-to vs report-uri
 
 report-uri works.
 
@@ -227,16 +256,42 @@ report-uri works.
 report-to - only supported by chromium and doesn't seem to work.
 - must be https, apparently
 - Report-To header already deprecated and doesn't seem to work
-- Reporting-Endpoints doesn't work either
+- Reporting-Endpoints doesn't work either when I tried it
 
 DOH! https://bugs.chromium.org/p/chromium/issues/detail?id=1152867
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to
 
 
-#### trusted types
+#### Deep dvie: trusted types
 
 https://web.dev/trusted-types/
+
+`trusted-types` - configure policy limitations
+
+`require-trusted-types-for 'script'`
+
+Only chromium browsers.
+
+---
+bad
+```
+el.innerHTML = '<img src=xyz.jpg>';
+```
+good
+```
+el.textContent = '';
+const img = document.createElement('img');
+img.src = 'xyz.jpg';
+el.appendChild(img);
+```
+
+---
+
+https://developer.mozilla.org/en-US/docs/Web/API/TrustedHTML
+
+https://github.com/cure53/DOMPurify#what-about-dompurify-and-trusted-types
+
 
 ### More reading
 
@@ -248,7 +303,7 @@ https://portswigger.net/research/ambushed-by-angularjs-a-hidden-csp-bypass-in-pi
 
 https://github.com/MetaMask/detect-provider/issues/31
 
-- TODO: try with a script hash
+- allow the script by sha with strict CSP
 
 ## Supply chain
 
@@ -256,3 +311,12 @@ https://github.com/MetaMask/detect-provider/issues/31
 - npm maudit etc.
 - https://socket.dev
 - LavaMoat
+
+
+### LavaMoat
+<!-- _class: lead-->
+https://naugtur.pl/pres3/lava/index.html
+
+### Deep dive: LavaMoat
+
+- let's protect one of your repos if there's time left
