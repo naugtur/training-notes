@@ -128,6 +128,7 @@ browsers have a cap on Access-Control-Max-Age
     - cookie session vs JWT in the app
       - stealer malware
       - xss
+      - JWT exploits
     - session pinning (IP or https)
   - CSRF
 
@@ -196,6 +197,19 @@ data:@file/javascript;base64,YWxlcnQoKQo=
   https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - level 1 2 3
   - level 3 support is incomplete
+
+### Basic directives
+
+default-src
+script-src
+*-src
+
+sandbox
+
+frame-ancestors
+
+base-uri
+
 ### XSS CSP bypass
 
 ![](csp1.png)
@@ -248,7 +262,7 @@ https://portswigger.net/web-security/cross-site-scripting/contexts/client-side-t
 11. observe what breaks, fix the app or loosen the policy
 12. When no longer getting reports, remoe `report-only`
 ```
-#### Deep dvvie: report-to vs report-uri
+#### Deep dive: report-to vs report-uri
 
 report-uri works.
 
@@ -301,11 +315,6 @@ https://david-gilbertson.medium.com/im-harvesting-credit-card-numbers-and-passwo
 
 https://portswigger.net/research/ambushed-by-angularjs-a-hidden-csp-bypass-in-piwik-pro
 
-### MetaMask and CSP
-
-https://github.com/MetaMask/detect-provider/issues/31
-
-- allow the script by sha with strict CSP
 
 ## Supply chain
 
@@ -321,4 +330,4 @@ https://naugtur.pl/pres3/lava/index.html
 
 ### Deep dive: LavaMoat
 
-- let's protect one of your repos if there's time left
+https://github.com/naugtur/js-training-examples/tree/master/lavamoat/preparation.md
