@@ -60,6 +60,8 @@ Consequences:
 
 https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
+http://latentflip.com/loupe
+
 ## Performance, or what it isn't
 
 ### Event loop blocked
@@ -96,6 +98,17 @@ Mostly just unnecessary iteration or duplicating work
 
 - in 2014 or 2015 folks at Netflix discovered that updating express endpoints in a working app without restarting actually adds them to the routes array which makes routing slower and effectively leaks memory.
 
+### Clogging the thread pool
+
+Mongodb injection
+
+Collection.find(req.query)
+
+    ?id=1 
+    ?$where=sleep(20000)
+
+Source: Node.js Interactive talk from my pal Vlad
+https://www.youtube.com/watch?v=xJWZsoYmsIE&list=PLfMzBWSH11xaZvhv1X5Fq1H-oMdnAtG6k&t=1104s
 
 ## Diagnosing
 
@@ -127,6 +140,10 @@ or Linux builtin `perf` with https://nodejs.org/en/guides/diagnostics-flamegraph
 - the entire `perf_hooks`
 - async hooks and promise hooks
 - diagnostics channel
+
+#### diagnostics_channel
+
+https://www.youtube.com/watch?v=wqGlbxIHAwI&list=PL0CdgOSSGlBYI7_e6Zs4kFSXL9LvOn8gM&index=4
 
 ## Performance improving principles
 
@@ -202,6 +219,10 @@ https://github.com/mcollina/async-cache-dedupe
 - some popular logging libraries are horribly slow by default
 
 ## Other material
+
+https://www.youtube.com/watch?v=wqGlbxIHAwI&list=PL0CdgOSSGlBYI7_e6Zs4kFSXL9LvOn8gM&index=4
+
+https://www.youtube.com/watch?v=J7q6HD06Sw0&list=PL0CdgOSSGlBaULAdbribJiENfXxPW0aLQ&index=20
 
 
 ### graphql specific stuff
